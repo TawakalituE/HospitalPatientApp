@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etPatientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient ID"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnFetchPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch Patient" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/etDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department" />
+
+    <EditText
+        android:id="@+id/etNurseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nurse ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room" />
+
+    <Button
+        android:id="@+id/btnUpdatePatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Patient" />
+
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main" />
+</LinearLayout>

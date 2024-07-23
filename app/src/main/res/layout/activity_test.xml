@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etPatientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNurseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nurse ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etBPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Pressure Low"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etBPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Pressure High"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temperature"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/btnSaveTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Test" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main" />
+</LinearLayout>

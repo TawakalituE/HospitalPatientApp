@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etPatientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/etDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department" />
+
+    <EditText
+        android:id="@+id/etRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room" />
+
+    <Button
+        android:id="@+id/btnSavePatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Patient" />
+
+    <Button
+        android:id="@+id/btnViewPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Patient" />
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main" />
+
+    <TextView
+        android:id="@+id/tvPatientDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Patient Details"
+        android:textSize="18sp" />
+</LinearLayout>
